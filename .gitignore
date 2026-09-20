@@ -1,0 +1,25 @@
+# Dependencies and build outputs
+frontend/node_modules/
+frontend/.next/
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local data (directory structure is retained via .gitkeep files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
